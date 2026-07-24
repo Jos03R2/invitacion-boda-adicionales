@@ -21,8 +21,16 @@ document.querySelector(".carrusel__dots");
         SLIDES
 ======================================*/
 
-let slides =
-Array.from(document.querySelectorAll(".carrusel__slide"));
+const slides =
+Array.from(
+
+document.querySelectorAll(
+
+".carrusel__slide"
+
+)
+
+);
 
 const totalSlides =
 slides.length;
@@ -40,62 +48,17 @@ contador.className =
 contenedor.appendChild(contador);
 
 /*======================================
-        CLONES
-======================================*/
-
-const primerClon =
-slides[0].cloneNode(true);
-
-const ultimoClon =
-slides[slides.length-1].cloneNode(true);
-
-primerClon.id =
-"primer-clon";
-
-ultimoClon.id =
-"ultimo-clon";
-
-track.appendChild(primerClon);
-
-track.insertBefore(
-
-    ultimoClon,
-
-    slides[0]
-
-);
-
-/*======================================
-        NUEVOS SLIDES
-======================================*/
-
-slides =
-Array.from(
-
-track.querySelectorAll(".carrusel__slide")
-
-);
-
-/*======================================
         VARIABLES
 ======================================*/
 
-let indice = 1;
+let indice = 0;
 
 let autoplay;
 
 let permitida = true;
 
 /*======================================
-        POSICION INICIAL
-======================================*/
-
-track.style.transform =
-
-`translateX(-${indice*100}%)`;
-
-/*======================================
-        CREAR DOTS
+        DOTS
 ======================================*/
 
 for(
@@ -126,8 +89,9 @@ i++
 
         ()=>{
 
-            indice =
-            i+1;
+            if(i===indice)return;
+
+            indice=i;
 
             mover();
 
@@ -142,7 +106,11 @@ i++
 }
 
 const dots =
-document.querySelectorAll(".carrusel__dot");
+document.querySelectorAll(
+
+".carrusel__dot"
+
+);
 
 /*======================================
         CONTADOR
@@ -150,25 +118,9 @@ document.querySelectorAll(".carrusel__dot");
 
 function actualizarContador(){
 
-    let numero =
-    indice-1;
+    contador.textContent=
 
-    if(numero<0){
-
-        numero=
-        totalSlides-1;
-
-    }
-
-    if(numero>=totalSlides){
-
-        numero=0;
-
-    }
-
-    contador.textContent =
-
-    `${String(numero+1).padStart(2,"0")} / ${String(totalSlides).padStart(2,"0")}`;
+    `${String(indice+1).padStart(2,"0")} / ${String(totalSlides).padStart(2,"0")}`;
 
 }
 
@@ -180,27 +132,51 @@ function actualizarDots(){
 
     dots.forEach(
 
-        dot=>dot.classList.remove("activo")
+        dot=>
+
+        dot.classList.remove(
+
+            "activo"
+
+        )
 
     );
 
-    let numero =
-    indice-1;
+    dots[indice]
 
-    if(numero<0){
+    .classList.add(
 
-        numero=
-        totalSlides-1;
+        "activo"
 
-    }
+    );
 
-    if(numero>=totalSlides){
+}
 
-        numero=0;
+/*======================================
+        SLIDE ACTIVO
+======================================*/
 
-    }
+function actualizarSlides(){
 
-    dots[numero].classList.add("activo");
+    slides.forEach(
+
+        slide=>
+
+        slide.classList.remove(
+
+            "activo"
+
+        )
+
+    );
+
+    slides[indice]
+
+    .classList.add(
+
+        "activo"
+
+    );
 
 }
 
@@ -215,7 +191,8 @@ function mover(){
     permitida=false;
 
     track.style.transition=
-    "transform .65s ease-in-out";
+
+    "transform .9s cubic-bezier(.65,.05,.36,1)";
 
     track.style.transform=
 
@@ -225,85 +202,35 @@ function mover(){
 
     actualizarContador();
 
+    actualizarSlides();
+
+    setTimeout(
+
+        ()=>{
+
+            permitida=true;
+
+        },
+
+        900
+
+    );
+
 }
 
 /*======================================
-        TRANSICION
+        ESTADO INICIAL
 ======================================*/
 
-track.addEventListener(
+track.style.transform=
 
-    "transitionend",
-
-    ()=>{
-
-        const actual =
-        slides[indice];
-
-        if(
-
-            actual.id===
-
-            "primer-clon"
-
-        ){
-
-            track.style.transition=
-            "none";
-
-            indice=1;
-
-            track.style.transform=
-
-            `translateX(-${indice*100}%)`;
-
-        }
-
-        if(
-
-            actual.id===
-
-            "ultimo-clon"
-
-        ){
-
-            track.style.transition=
-            "none";
-
-            indice=
-            totalSlides;
-
-            track.style.transform=
-
-            `translateX(-${indice*100}%)`;
-
-        }
-
-        slides.forEach(
-
-            slide=>
-
-            slide.classList.remove("activo")
-
-        );
-
-        slides[indice]
-
-        .classList.add("activo");
-
-        permitida=true;
-
-    }
-
-);
+`translateX(0%)`;
 
 actualizarDots();
 
 actualizarContador();
 
-slides[indice]
-
-.classList.add("activo");
+actualizarSlides();
 
 /*======================================
         SIGUIENTE
@@ -314,6 +241,12 @@ function siguiente(){
     if(!permitida)return;
 
     indice++;
+
+    if(indice>=totalSlides){
+
+        indice=0;
+
+    }
 
     mover();
 
@@ -328,6 +261,12 @@ function anterior(){
     if(!permitida)return;
 
     indice--;
+
+    if(indice<0){
+
+        indice=totalSlides-1;
+
+    }
 
     mover();
 
@@ -371,7 +310,9 @@ btnPrev.addEventListener(
 
 function iniciarAutoplay(){
 
-    autoplay =
+    detenerAutoplay();
+
+    autoplay=
 
     setInterval(
 
@@ -381,7 +322,7 @@ function iniciarAutoplay(){
 
         },
 
-        5000
+        8000
 
     );
 
@@ -399,14 +340,12 @@ function detenerAutoplay(){
 
 function reiniciarAutoplay(){
 
-    detenerAutoplay();
-
     iniciarAutoplay();
 
 }
 
 /*======================================
-        PAUSA AL PASAR EL MOUSE
+        PAUSA MOUSE
 ======================================*/
 
 contenedor.addEventListener(
@@ -429,9 +368,9 @@ contenedor.addEventListener(
         SWIPE
 ======================================*/
 
-let inicioX = 0;
+let inicioX=0;
 
-let finX = 0;
+let finX=0;
 
 track.addEventListener(
 
@@ -439,7 +378,7 @@ track.addEventListener(
 
     e=>{
 
-        inicioX =
+        inicioX=
 
         e.touches[0].clientX;
 
@@ -459,7 +398,7 @@ track.addEventListener(
 
     e=>{
 
-        finX =
+        finX=
 
         e.touches[0].clientX;
 
@@ -479,7 +418,7 @@ track.addEventListener(
 
     ()=>{
 
-        const diferencia =
+        const diferencia=
 
         inicioX-finX;
 
@@ -584,6 +523,28 @@ document.addEventListener(
             iniciarAutoplay();
 
         }
+
+    }
+
+);
+
+/*======================================
+        REDIMENSIONAR
+======================================*/
+
+window.addEventListener(
+
+    "resize",
+
+    ()=>{
+
+        track.style.transition=
+
+        "none";
+
+        track.style.transform=
+
+        `translateX(-${indice*100}%)`;
 
     }
 
