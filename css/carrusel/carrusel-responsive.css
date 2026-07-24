@@ -220,4 +220,42 @@
 
     }
 
+    /*=========================================
+            CELULARES
+=========================================*/
+
+@media(max-width:768px){
+
+    .carrusel__slide img{
+
+        height:560px;
+
+    }
+
+}
+
+
+/*=========================================
+            CARRUSEL MOVIL
+=========================================*/
+
+@media (max-width:768px){
+
+    .carrusel__slide{
+
+        padding:12px;
+
+    }
+
+    .carrusel__slide img{
+
+        height:420px;
+
+        object-fit:contain;
+
+        background:#f8f5f3;
+
+    }
+
+}
 }
