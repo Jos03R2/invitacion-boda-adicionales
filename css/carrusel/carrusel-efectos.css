@@ -1,0 +1,294 @@
+/*=========================================
+            SOMBRA TARJETA
+=========================================*/
+
+.carrusel__contenedor{
+
+    box-shadow:
+
+        0 30px 70px rgba(0,0,0,.12),
+
+        0 12px 30px rgba(185,124,124,.12);
+
+}
+
+/*=========================================
+            BORDE INTERNO
+=========================================*/
+
+.carrusel__contenedor::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:12px;
+
+    border-radius:inherit;
+
+    border:1px solid rgba(255,255,255,.40);
+
+    pointer-events:none;
+
+    z-index:30;
+
+}
+
+/*=========================================
+            BRILLO
+=========================================*/
+
+.carrusel__contenedor::after{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    pointer-events:none;
+
+    border-radius:inherit;
+
+    background:
+
+        linear-gradient(
+
+            135deg,
+
+            rgba(255,255,255,.18),
+
+            transparent 35%,
+
+            transparent 70%,
+
+            rgba(255,255,255,.08)
+
+        );
+
+    opacity:.45;
+
+}
+
+/*=========================================
+            BOTONES
+=========================================*/
+
+.carrusel__prev,
+.carrusel__next{
+
+    position:absolute;
+
+    top:58%;
+
+    transform:translateY(-50%);
+
+    width:58px;
+
+    height:58px;
+
+    border:none;
+
+    border-radius:50%;
+
+    cursor:pointer;
+
+    background:
+
+        rgba(255,255,255,.18);
+
+    color:#6D2E46;
+
+    border:1px solid rgba(255,255,255,.35);
+
+    backdrop-filter:blur(14px);
+
+    -webkit-backdrop-filter:blur(14px);
+
+    box-shadow:
+
+        0 12px 30px rgba(0,0,0,.18);
+
+    transition:
+
+        all .35s ease;
+
+    z-index:100;
+
+}
+
+/*=========================================
+            POSICION
+=========================================*/
+
+.carrusel__prev{
+
+    left:22px;
+
+}
+
+.carrusel__next{
+
+    right:22px;
+
+}
+
+/*=========================================
+            HOVER
+=========================================*/
+
+.carrusel__prev:hover,
+.carrusel__next:hover{
+
+    transform:
+
+        translateY(-50%)
+
+        scale(1.12);
+
+    background:
+
+        rgba(255,255,255,.30);
+
+    box-shadow:
+
+        0 18px 40px rgba(0,0,0,.20);
+
+}
+
+/*=========================================
+            ICONOS
+=========================================*/
+
+.carrusel__prev i,
+.carrusel__next i{
+
+    font-size:1.35rem;
+
+}
+
+/*=========================================
+            DOTS
+=========================================*/
+
+.carrusel__dots{
+
+    position:absolute;
+
+    left:50%;
+
+    bottom:24px;
+
+    transform:translateX(-50%);
+
+    display:flex;
+
+    gap:16px;
+
+    z-index:100;
+
+}
+
+/*=========================================
+            DOT
+=========================================*/
+
+.carrusel__dot{
+
+    width:10px;
+
+    height:10px;
+
+    border-radius:50%;
+
+    cursor:pointer;
+
+    background:
+
+        rgba(255,255,255,.55);
+
+    border:1px solid rgba(255,255,255,.40);
+
+    transition:
+
+        all .40s ease;
+
+}
+
+/*=========================================
+            DOT HOVER
+=========================================*/
+
+.carrusel__dot:hover{
+
+    background:#ffffff;
+
+}
+
+/*=========================================
+            DOT ACTIVO
+=========================================*/
+
+.carrusel__dot.activo{
+
+    width:28px;
+
+    border-radius:30px;
+
+    background:#B97C7C;
+
+    border:none;
+
+}
+
+/*=========================================
+            CONTADOR
+=========================================*/
+
+.carrusel__contador{
+
+    position:absolute;
+
+    right:24px;
+
+    bottom:22px;
+
+    padding:8px 16px;
+
+    border-radius:30px;
+
+    background:
+
+        rgba(255,255,255,.18);
+
+    backdrop-filter:blur(14px);
+
+    -webkit-backdrop-filter:blur(14px);
+
+    border:1px solid rgba(255,255,255,.35);
+
+    color:#ffffff;
+
+    font-size:.82rem;
+
+    font-weight:600;
+
+    letter-spacing:2px;
+
+    box-shadow:
+
+        0 10px 25px rgba(0,0,0,.15);
+
+    z-index:100;
+
+}
+
+/*=========================================
+            ZOOM FOTO
+=========================================*/
+
+.carrusel__slide.activo img{
+
+    transform:scale(1.08);
+
+}

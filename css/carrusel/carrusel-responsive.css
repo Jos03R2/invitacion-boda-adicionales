@@ -1,0 +1,223 @@
+/*=========================================
+            TABLET
+=========================================*/
+
+@media(max-width:768px){
+
+    .carrusel{
+
+        padding:25px 15px 45px;
+
+    }
+
+    .carrusel__contenedor{
+
+        max-width:560px;
+
+        padding:15px;
+
+    }
+
+    .carrusel__slide{
+
+        border-radius:24px;
+
+    }
+
+    .carrusel__slide img{
+
+        height:470px;
+
+    }
+
+    /*=============================
+            BOTONES
+    =============================*/
+
+    .carrusel__prev,
+    .carrusel__next{
+
+        width:48px;
+
+        height:48px;
+
+    }
+
+    .carrusel__prev{
+
+        left:18px;
+
+    }
+
+    .carrusel__next{
+
+        right:18px;
+
+    }
+
+    .carrusel__prev i,
+    .carrusel__next i{
+
+        font-size:1.2rem;
+
+    }
+
+    /*=============================
+            DOTS
+    =============================*/
+
+    .carrusel__dots{
+
+        gap:14px;
+
+        bottom:22px;
+
+    }
+
+    .carrusel__dot{
+
+        width:9px;
+
+        height:9px;
+
+    }
+
+    .carrusel__dot.activo{
+
+        width:24px;
+
+    }
+
+    /*=============================
+            CONTADOR
+    =============================*/
+
+    .carrusel__contador{
+
+        right:20px;
+
+        bottom:18px;
+
+        padding:7px 14px;
+
+        font-size:.78rem;
+
+    }
+
+}
+
+/*=========================================
+            MOVIL
+=========================================*/
+
+@media(max-width:480px){
+
+    .carrusel{
+
+        padding:20px 10px 40px;
+
+    }
+
+    .carrusel__contenedor{
+
+        max-width:100%;
+
+        padding:12px;
+
+        border-radius:
+            50px 18px
+            85px 22px
+            70px 24px
+            35px 85px;
+
+    }
+
+    .carrusel__slide{
+
+        border-radius:18px;
+
+    }
+
+    .carrusel__slide img{
+
+        height:360px;
+
+    }
+
+    /*=============================
+            BOTONES
+    =============================*/
+
+    .carrusel__prev,
+    .carrusel__next{
+
+        width:42px;
+
+        height:42px;
+
+    }
+
+    .carrusel__prev{
+
+        left:12px;
+
+    }
+
+    .carrusel__next{
+
+        right:12px;
+
+    }
+
+    .carrusel__prev i,
+    .carrusel__next i{
+
+        font-size:1rem;
+
+    }
+
+    /*=============================
+            DOTS
+    =============================*/
+
+    .carrusel__dots{
+
+        gap:12px;
+
+        bottom:18px;
+
+    }
+
+    .carrusel__dot{
+
+        width:8px;
+
+        height:8px;
+
+    }
+
+    .carrusel__dot.activo{
+
+        width:20px;
+
+    }
+
+    /*=============================
+            CONTADOR
+    =============================*/
+
+    .carrusel__contador{
+
+        right:14px;
+
+        bottom:14px;
+
+        padding:6px 12px;
+
+        font-size:.72rem;
+
+        letter-spacing:1px;
+
+    }
+
+}

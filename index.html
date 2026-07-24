@@ -85,11 +85,7 @@
         rel="stylesheet"
         href="css/fecha/fecha.css">    
      
-    <link rel="stylesheet" href="css/collage/collage.css">    
-
-    <link rel="stylesheet" href="css/collage/collage-efectos.css"> 
     
-    <link rel="stylesheet" href="css/collage/collage-responsive.css"> 
     
     
     <link rel="stylesheet"
@@ -128,7 +124,11 @@
 
     <link rel="stylesheet" href="css/final/final.css">
         
-        
+    <link rel="stylesheet" href="css/carrusel/carrusel-efectos.css">
+
+    <link rel="stylesheet" href="css/carrusel/carrusel-responsive.css">
+
+    <link rel="stylesheet" href="css/carrusel/carrusel.css">
     
 
     <link rel="stylesheet" href="css/itinerario/itinerario.css">
@@ -1287,22 +1287,23 @@
 
 
 
-
-
-
 <!--======================================
-        COLLAGE DE FOTOS
+        GALERÍA DE FOTOS
 =======================================-->
 
-<section class="collage animar-zoom">
+<section class="carrusel animar-zoom">
 
-    <div class="collage__tarjeta">
+    <div class="carrusel__contenedor">
 
-        <div class="collage__grid">
+        <!--======================================
+                TRACK
+        =======================================-->
 
-            <!-- FOTO PRINCIPAL -->
+        <div class="carrusel__track">
 
-            <div class="collage__item collage__item--grande">
+            <!-- FOTO 1 -->
+
+            <div class="carrusel__slide">
 
                 <img
                     src="img/Foto10.jpg"
@@ -1312,7 +1313,7 @@
 
             <!-- FOTO 2 -->
 
-            <div class="collage__item">
+            <div class="carrusel__slide">
 
                 <img
                     src="img/Foto15.jpg"
@@ -1322,7 +1323,7 @@
 
             <!-- FOTO 3 -->
 
-            <div class="collage__item">
+            <div class="carrusel__slide">
 
                 <img
                     src="img/Foto16.jpg"
@@ -1332,26 +1333,65 @@
 
             <!-- FOTO 4 -->
 
-            <div class="collage__item">
+            <div class="carrusel__slide">
 
                 <img
-                    src="img/foto20.jpg"
+                    src="img/Foto20.jpg"
                     alt="Joyce y Hasson">
 
             </div>
 
             <!-- FOTO 5 -->
 
-            
+            <div class="carrusel__slide">
+
+                <img
+                    src="img/Foto11.jpg"
+                    alt="Joyce y Hasson">
+
+            </div>
+
+        </div>
+
+        <!--======================================
+                BOTÓN ANTERIOR
+        =======================================-->
+
+        <button
+            class="carrusel__prev"
+            type="button"
+            aria-label="Foto anterior">
+
+            <i class="fa-solid fa-chevron-left"></i>
+
+        </button>
+
+        <!--======================================
+                BOTÓN SIGUIENTE
+        =======================================-->
+
+        <button
+            class="carrusel__next"
+            type="button"
+            aria-label="Foto siguiente">
+
+            <i class="fa-solid fa-chevron-right"></i>
+
+        </button>
+
+        <!--======================================
+                INDICADORES
+        =======================================-->
+
+        <div
+            class="carrusel__dots"
+            aria-label="Indicadores del carrusel">
 
         </div>
 
     </div>
 
 </section>
-
-
-
 
 
 
@@ -1966,6 +2006,8 @@
 <script src="js/confirmacion/modal.js"></script>
 
 <script src="js/confirmacion/success.js"></script>
+
+<script src="js/carrusel/carrusel.js"></script>
 
 
 </body>
