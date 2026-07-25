@@ -71,7 +71,7 @@ const familias = {
 
     "CHIR-5G68": {
         codigo: "CHIR-5G68",
-        familia: "Rosario",
+        familia: "Lucia Chipix Rosario",
         integrantes: [
             "Lucia Chipix Rosario"
         ]
@@ -189,7 +189,7 @@ const familias = {
 
     "SANT-6A28": {
         codigo: "SANT-6A28",
-        familia: "Santana",
+        familia: "Sara Santana",
         integrantes: [
             "Sara Santana"
         ]
@@ -197,7 +197,7 @@ const familias = {
 
     "GARC-8E36": {
         codigo: "GARC-8E36",
-        familia: "Garcia",
+        familia: "Leticia Garcia",
         integrantes: [
             "Leticia Garcia"
         ]
@@ -205,7 +205,7 @@ const familias = {
 
     "LOPE-7W39": {
         codigo: "LOPE-7W39",
-        familia: "Lopez",
+        familia: "Melisa Lopez",
         integrantes: [
             "Melisa Lopez"
         ]
