@@ -213,7 +213,7 @@ const familias = {
 
     "SOSA-7C68": {
         codigo: "SOSA-7C68",
-        familia: "Sosa",
+        familia: "Aura Sosa",
         integrantes: [
             "Aura Sosa"
         ]
@@ -221,7 +221,7 @@ const familias = {
 
     "CAHU-4T36": {
         codigo: "CAHU-4T36",
-        familia: "Cahuec",
+        familia: "Briseida Cahuec",
         integrantes: [
             "Briseida Cahuec"
         ]
@@ -279,7 +279,7 @@ const familias = {
 
     "ALVA-8D23": {
         codigo: "ALVA-8D23",
-        familia: "Alvarez",
+        familia: "Brandon Alvarez",
         integrantes: [
             "Brandon Alvarez"
         ]
@@ -315,7 +315,7 @@ const familias = {
 
     "LOPE-5D63": {
         codigo: "LOPE-5D63",
-        familia: "Lopez",
+        familia: "Evelia Lopez",
         integrantes: [
             "Evelia Lopez"
         ]
@@ -363,7 +363,7 @@ const familias = {
 
     "GUZM-5R24": {
         codigo: "GUZM-5R24",
-        familia: "Familia Guzman",
+        familia: "Dennis Guzman",
         integrantes: [
             "Dennis Guzman"
         ]
@@ -380,7 +380,7 @@ const familias = {
 
     "LOPE-78D9": {
         codigo: "LOPE-78D9",
-        familia: "Lopez",
+        familia: "Luis Eduardo Lopez",
         integrantes: [
             "Luis Eduardo Lopez"
         ]
@@ -388,7 +388,7 @@ const familias = {
 
     "ROJA-15V3": {
         codigo: "ROJA-15V3",
-        familia: "Rojas",
+        familia: "Jeniffer Rojas",
         integrantes: [
             "Jeniffer Rojas"
         ]
@@ -541,7 +541,7 @@ const familias = {
 
     "LORO-6Y52": {
         codigo: "LORO-6Y52",
-        familia: "Familia Lorenzana",
+        familia: "Nohelia Lorenzana",
         integrantes: [
             "Nohelia Lorenzana"
         ]
@@ -549,7 +549,7 @@ const familias = {
 
     "LORE-D521": {
         codigo: "LORE-D521",
-        familia: "Familia Lorenzana",
+        familia: "Norma Lorenzana",
         integrantes: [
             "Norma Lorenzana"
         ]
@@ -557,7 +557,7 @@ const familias = {
 
     "LORE-Y39D": {
         codigo: "LORE-Y39D",
-        familia: "Familia Lorenzana",
+        familia: "Alicia Lorenzana",
         integrantes: [
             "Alicia Lorenzana"
         ]
@@ -583,7 +583,7 @@ const familias = {
 
     "SOBE-832D": {
         codigo: "SOBE-832D",
-        familia: "Soberanis",
+        familia: "Rosario Soberanis",
         integrantes: [
             "Rosario Soberanis"
         ]
@@ -600,7 +600,7 @@ const familias = {
 
     "NUÑE-39F5": {
         codigo: "NUÑE-39F5",
-        familia: "Nuñez",
+        familia: "Millitza Nuñez",
         integrantes: [
             "Millitza Nuñez"
         ]
@@ -608,7 +608,7 @@ const familias = {
 
     "CURL-96J4": {
         codigo: "CURL-96J4",
-        familia: "Curley",
+        familia: "Norma Curley",
         integrantes: [
             "Norma Curley"
         ]
@@ -616,7 +616,7 @@ const familias = {
 
     "MEJI-H59E": {
         codigo: "MEJI-H59E",
-        familia: "Mejicanos",
+        familia: "Xavier Mejicanos",
         integrantes: [
             "Xavier Mejicanos"
         ]
@@ -642,7 +642,7 @@ const familias = {
 
     "SAND-G586": {
         codigo: "SAND-G586",
-        familia: "Sandoval",
+        familia: "Brayan Sandoval",
         integrantes: [
             "Brayan Sandoval"
         ]
@@ -670,7 +670,7 @@ const familias = {
 
     "LESL-589D": {
         codigo: "LESL-589D",
-        familia: "Alarcon",
+        familia: "Leslie Alarcon",
         integrantes: [
             "Leslie Alarcon"
         ]
@@ -678,7 +678,7 @@ const familias = {
 
     "JACI-E3D4": {
         codigo: "JACI-E3D4",
-        familia: "Jacinto",
+        familia: "Heralda Jacinto",
         integrantes: [
             "Heralda Jacinto"
         ]
@@ -686,7 +686,7 @@ const familias = {
 
     "IVOY-UDK3": {
         codigo: "IVOY-UDK3",
-        familia: "Ivoy",
+        familia: "Johanna Ivoy",
         integrantes: [
             "Johanna Ivoy"
         ]
