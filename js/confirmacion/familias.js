@@ -33,7 +33,7 @@ const familias = {
 
     "LOPR-5D96": {
         codigo: "LOPR-5D96",
-        familia: "Familia Rosario Lopez",
+        familia: "Familia Lopez Rosario",
         integrantes: [
             "Geysha Rosario De Lopez",
             "Mario Lopez De Leon",
