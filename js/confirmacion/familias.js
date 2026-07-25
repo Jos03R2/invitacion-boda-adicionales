@@ -337,7 +337,7 @@ const familias = {
             "Antonio Davila",
             "Olga de Davila",
             "Alejandra Davila",
-            "Hendel Guas"
+            
         ]
     },
 
@@ -719,6 +719,16 @@ const familias = {
             "Iris De Raxcaco",
             "Samual Raxcaco"
         ]
+    },
+
+
+    "GUAS-EG4D": {
+        codigo: "GAUS-EG4D",
+        familia: "Hendel Guas",
+        integrantes: [
+            "Hendel Guas",
+        ]
     }
+    
 
 };
