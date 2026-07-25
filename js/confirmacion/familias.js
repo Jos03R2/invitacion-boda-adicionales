@@ -723,12 +723,12 @@ const familias = {
 
 
     "GUAS-EG4D": {
-        codigo: "GAUS-EG4D",
-        familia: "Hendel Guas",
-        integrantes: [
-            "Hendel Guas",
-        ]
-    }
+    codigo: "GUAS-EG4D",
+    familia: "Hendel Guas",
+    integrantes: [
+        "Hendel Guas"
+    ]
+}
     
 
 };
