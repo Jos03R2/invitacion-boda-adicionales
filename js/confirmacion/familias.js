@@ -2,7 +2,7 @@ const familias = {
 
     "ROSL-2X85": {
         codigo: "ROSL-2X85",
-        familia: "Familia Rosario Lopez",
+        familia: "Rosario Lopez",
         integrantes: [
             "Byron Rosario Perez",
             "Joyce Lopez De Rosario",
@@ -12,7 +12,7 @@ const familias = {
 
     "ROSJ-7M41": {
         codigo: "ROSJ-7M41",
-        familia: "Familia Rosario Alvarado",
+        familia: "Rosario Alvarado",
         integrantes: [
             "Ivan Rosario",
             "Yocelin De Rosario",
@@ -57,14 +57,21 @@ const familias = {
         codigo: "REYS-9E83",
         familia: "Familia Reyes",
         integrantes: [
-            "Jenifer Reyes",
+            "Jenifer Reyes"
+        ]
+    },
+
+    "REYS-ERLG": {
+        codigo: "REYS-ERLG",
+        familia: "Reyes",
+        integrantes: [
             "Violeta Reyes"
         ]
     },
 
     "CHIR-5G68": {
         codigo: "CHIR-5G68",
-        familia: "Chipix Rosario",
+        familia: "Rosario",
         integrantes: [
             "Lucia Chipix Rosario"
         ]
@@ -93,7 +100,7 @@ const familias = {
 
     "RODP-5W23": {
         codigo: "RODP-5W23",
-        familia: "Familia Rodolfo Perez",
+        familia: "Familia Perez",
         integrantes: [
             "Rodolfo Perez",
             "Alma De Perez",
@@ -103,7 +110,7 @@ const familias = {
 
     "PERR-1D43": {
         codigo: "PERR-1D43",
-        familia: "Familia Perez",
+        familia: "Familia Perez Revolorio",
         integrantes: [
             "Josue Perez",
             "Alejandra Revolorio De Perez",
@@ -125,10 +132,10 @@ const familias = {
 
     "SOTM-9Z36": {
         codigo: "SOTM-9Z36",
-        familia: "Familia Soto de Mendoza",
+        familia: "Familia Mendoza",
         integrantes: [
-            "Vivian Soto de Mendoza",
-            "Rafael Mendoza"
+            "Rafael Mendoza",
+            "Vivian Soto de Mendoza"
         ]
     },
 
@@ -198,16 +205,15 @@ const familias = {
 
     "LOPE-7W39": {
         codigo: "LOPE-7W39",
-        familia: "Familia Lopez",
+        familia: "Lopez",
         integrantes: [
-            "Melisa Lopez",
-            "Esposo de Melisa Lopez"
+            "Melisa Lopez"
         ]
     },
 
     "SOSA-7C68": {
         codigo: "SOSA-7C68",
-        familia: "Familia Sosa",
+        familia: "Sosa",
         integrantes: [
             "Aura Sosa"
         ]
@@ -221,7 +227,7 @@ const familias = {
         ]
     },
 
-        "LORE-6K85": {
+    "LORE-6K85": {
         codigo: "LORE-6K85",
         familia: "Familia Lorenzana",
         integrantes: [
@@ -252,17 +258,17 @@ const familias = {
         ]
     },
 
-    "MORA-7E63": {
-        codigo: "MORA-7E63",
-        familia: "Morales",
+    "SAGA-7E63": {
+        codigo: "SAGA-7E63",
+        familia: "Familia Sagastume",
         integrantes: [
-            "Marisol Morales",
             "Hector Sagastume",
             "Sandra de Sagastume"
         ]
     },
 
-    "MONZ-5M52": {
+
+        "MONZ-5M52": {
         codigo: "MONZ-5M52",
         familia: "Familia Monzon",
         integrantes: [
@@ -397,12 +403,12 @@ const familias = {
         ]
     },
 
-        "ESCR-32E9": {
+    "ESCR-32E9": {
         codigo: "ESCR-32E9",
-        familia: "Escriba",
+        familia: "Familia Escriba Valle",
         integrantes: [
-            "Valeria Valle",
-            "Juan Diego Escribá"
+            "Juan Diego Escribá",
+            "Valeria Valle De Escribá"
         ]
     },
 
@@ -442,7 +448,8 @@ const familias = {
         ]
     },
 
-    "AMBR-51B9": {
+
+        "AMBR-51B9": {
         codigo: "AMBR-51B9",
         familia: "Familia Ambrocio",
         integrantes: [
@@ -474,8 +481,8 @@ const familias = {
         familia: "Familia Gomez",
         integrantes: [
             "Edwin Gomez",
-            "Luis Gomez",
-            "Angelica de Gomez"
+            "Angelica de Gomez",
+            "Luis Gomez"
         ]
     },
 
@@ -483,7 +490,7 @@ const familias = {
         codigo: "JUAR-17B5",
         familia: "Familia Juarez",
         integrantes: [
-            "Don Jorge Juarez",
+            "Jorge Juarez",
             "Dora de Juarez",
             "Jorge Juarez"
         ]
@@ -550,13 +557,13 @@ const familias = {
 
     "LORE-Y39D": {
         codigo: "LORE-Y39D",
-        familia: "Lorenzana",
+        familia: "Familia Lorenzana",
         integrantes: [
             "Alicia Lorenzana"
         ]
     },
 
-        "AUCE-98D3": {
+    "AUCE-98D3": {
         codigo: "AUCE-98D3",
         familia: "Familia Auceda",
         integrantes: [
@@ -609,13 +616,13 @@ const familias = {
 
     "MEJI-H59E": {
         codigo: "MEJI-H59E",
-        familia: "Mejicano",
+        familia: "Mejicanos",
         integrantes: [
-            "Xavier Mejicano"
+            "Xavier Mejicanos"
         ]
     },
 
-    "FERN-E68F": {
+        "FERN-E68F": {
         codigo: "FERN-E68F",
         familia: "Familia Fernandez",
         integrantes: [
@@ -647,8 +654,8 @@ const familias = {
         integrantes: [
             "Antonio Vasquez",
             "Hilda de Vasquez",
-            "Wilklson Vasquez",
-            "Crustoopher Vasquez"
+            "Wilson Vasquez",
+            "Cristopher Vasquez"
         ]
     },
 
@@ -663,7 +670,7 @@ const familias = {
 
     "LESL-589D": {
         codigo: "LESL-589D",
-        familia: "Familia Alarcon",
+        familia: "Alarcon",
         integrantes: [
             "Leslie Alarcon"
         ]
@@ -671,7 +678,7 @@ const familias = {
 
     "JACI-E3D4": {
         codigo: "JACI-E3D4",
-        familia: "Familia Jacinto",
+        familia: "Jacinto",
         integrantes: [
             "Heralda Jacinto"
         ]
@@ -690,11 +697,11 @@ const familias = {
         familia: "Familia Diaz",
         integrantes: [
             "Miguel Diaz",
-            "Stephanie Leal"
+            "Stephanie De Diaz"
         ]
     },
 
-        "CRIS-56ED": {
+    "CRIS-56ED": {
         codigo: "CRIS-56ED",
         familia: "Familia Crispin",
         integrantes: [
@@ -709,7 +716,7 @@ const familias = {
         familia: "Familia Raxcaco",
         integrantes: [
             "David Raxcaco",
-            "Iris Raxcaco",
+            "Iris De Raxcaco",
             "Samual Raxcaco"
         ]
     }
