@@ -511,9 +511,7 @@ const familias = {
             "Edson Garzo",
             "Monica de Garzo",
             "Andre Garzo",
-            "Karen Garzo",
-            "Marina De Garzo",
-            "Balmori Garzo"
+            
         ]
     },
 
@@ -737,6 +735,17 @@ const familias = {
         "Marta de Hernandez"
     ]
 }
+,
+
+"GARZ-DEG5": {
+    codigo: "GARZ-DEG5",
+    familia: "Familia Garzo",
+    integrantes: [
+        "Karen Garzo",
+        "Marina De Garzo",
+        "Balmori Garzo"
+    ]
+},
     
 
 };
