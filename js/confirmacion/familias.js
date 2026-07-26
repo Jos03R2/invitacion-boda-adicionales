@@ -529,7 +529,7 @@ const familias = {
 
     "LORM-2D69": {
         codigo: "LORM-2D69",
-        familia: "Familia Lorenzana de Meneses",
+        familia: "Familia Meneses Lorenzana",
         integrantes: [
             "Noemi Lorenzana De Meneses",
             "Herbet Meneses"
