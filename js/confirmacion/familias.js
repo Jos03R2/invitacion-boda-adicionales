@@ -572,7 +572,7 @@ const familias = {
         familia: "Familia Mazariegos",
         integrantes: [
             "Daniel Mazariegos",
-            "Ana Lucia Arias"
+            "Ana Lucia de Mazariegos"
         ]
     },
 
