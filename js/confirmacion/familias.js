@@ -435,18 +435,15 @@ const familias = {
     },
 
     "HERN-29N5": {
-        codigo: "HERN-29N5",
-        familia: "Familia Hernandez",
-        integrantes: [
-            "Eitan Hernandez",
-            "Kathy de Hernandez",
-            "Santiago Hernandez",
-            "Sebastian Hernandez",
-            "Ludgy Hernandez",
-            "Orlando Hernandez",
-            "Marta de Hernandez"
-        ]
-    },
+    codigo: "HERN-29N5",
+    familia: "Familia Hernandez",
+    integrantes: [
+        "Eitan Hernandez",
+        "Kathy de Hernandez",
+        "Santiago Hernandez",
+        "Sebastian Hernandez"
+    ]
+},
 
 
         "AMBR-51B9": {
@@ -727,6 +724,17 @@ const familias = {
     familia: "Hendel Guas",
     integrantes: [
         "Hendel Guas"
+    ]
+},
+
+
+"HERN-DE5F": {
+    codigo: "HERN-DE5F",
+    familia: "Familia Hernandez",
+    integrantes: [
+        "Ludgy Hernandez",
+        "Orlando Hernandez",
+        "Marta de Hernandez"
     ]
 }
     
