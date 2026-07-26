@@ -591,7 +591,7 @@ const familias = {
 
     "DIAZ-6D82": {
         codigo: "DIAZ-6D82",
-        familia: "Familia Diaz",
+        familia: "Jose Diaz y Raquel Chavez",
         integrantes: [
             "Jose Diaz",
             "Raquel Chavez"
@@ -624,7 +624,7 @@ const familias = {
 
         "FERN-E68F": {
         codigo: "FERN-E68F",
-        familia: "Familia Fernandez",
+        familia: "Edwin Fernandez y Gabriela Alvarado",
         integrantes: [
             "Edwin Fernandez",
             "Gabriela Alvarado"
