@@ -6,7 +6,7 @@ const resultadoBusqueda =
 document.getElementById("resultadoBusqueda");
 
 const SCRIPT_URL =
-"https://script.google.com/macros/s/AKfycbwVP6Js9NJligg9X6aVlYv7PPHEvEH6x1GL4sc53IP0ozlHOGwg2LVuoSgY79BfaSVb/exec";
+"https://script.google.com/macros/s/AKfycbz_wOGILnq8wL08AHAWhQMfddxvpv7Domy1g3sQ7r_u5xP2efQ3OIFcX8730IooWEpj/exec";
 
 let familiaActual = null;
 
@@ -321,33 +321,35 @@ Enviando...
 
             );
 
-            const datos = {
+           const datos = {
 
-                codigo:
+    grupo: "adicionales",
 
-                familiaActual.codigo,
+    codigo:
 
-                familia:
+    familiaActual.codigo,
 
-                familiaActual.familia,
+    familia:
 
-                integrantes:
+    familiaActual.familia,
 
-                integrantes,
+    integrantes:
 
-                mensaje:
+    integrantes,
 
-                document.getElementById(
+    mensaje:
 
-                    "mensaje"
+    document.getElementById(
 
-                ).value,
+        "mensaje"
 
-                total:
+    ).value,
 
-                total
+    total:
 
-            };
+    total
+
+};
 
             try{
 
