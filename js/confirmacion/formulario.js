@@ -379,11 +379,29 @@ Enviando...
 
                 );
 
-                const resultado =
+                const texto = await respuesta.text();
 
-                await respuesta.json();
+console.log("RESPUESTA DEL SERVIDOR:", texto);
 
-                console.log(resultado);
+let resultado;
+
+try{
+
+    resultado = JSON.parse(texto);
+
+}
+
+catch(error){
+
+    console.error("El servidor no devolvió JSON:", texto);
+
+    throw new Error(
+        "El servidor devolvió una respuesta inválida."
+    );
+
+}
+
+console.log(resultado);
 
                 if(resultado.ok){
 
