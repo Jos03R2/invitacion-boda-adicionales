@@ -312,7 +312,7 @@ const familias = {
 
     },
 
-    /*==================================
+     /*==================================
             FAMILIA PALENCIA
     ==================================*/
 
@@ -331,6 +331,42 @@ const familias = {
             "Carolina Palencia",
 
             "Mishel Palencia"
+
+        ]
+
+    },
+
+    /*==================================
+            FAMILIA LOPEZ
+    ==================================*/
+
+    "LOPE-85CV": {
+
+        codigo: "LOPE-85CV",
+
+        familia: "Familia Lopez",
+
+        integrantes: [
+
+            "Mielsa Lopez"
+
+        ]
+
+    },
+
+    /*==================================
+            SOSA
+    ==================================*/
+
+    "SOSA-5CV7": {
+
+        codigo: "SOSA-5CV7",
+
+        familia: "Sosa",
+
+        integrantes: [
+
+            "Aura Sosa"
 
         ]
 
