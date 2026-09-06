@@ -96,15 +96,15 @@ const familias = {
 
         codigo: "CATL-67DE",
 
-        familia: "Familia Catalan Ambrocio",
+        familia: "Raquel y Cesar",
 
         integrantes: [
 
             "Cesar Catalan",
 
-            "Raquel Ambrocio",
+            "Raquel Ambrocio"
 
-            "Joselyn Lopez Ambrocio"
+         
 
         ]
 
