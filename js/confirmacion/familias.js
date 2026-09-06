@@ -312,7 +312,7 @@ const familias = {
 
     },
 
-     /*==================================
+    /*==================================
             FAMILIA PALENCIA
     ==================================*/
 
@@ -344,11 +344,11 @@ const familias = {
 
         codigo: "LOPE-85CV",
 
-        familia: "Familia Lopez",
+        familia: "Lopez",
 
         integrantes: [
 
-            "Mielsa Lopez"
+            "Melisa Lopez"
 
         ]
 
@@ -367,6 +367,26 @@ const familias = {
         integrantes: [
 
             "Aura Sosa"
+
+        ]
+
+    },
+
+    /*==================================
+        JOYSELN Y JUAN CARLOS
+    ==================================*/
+
+    "LOPE-2DE2": {
+
+        codigo: "LOPE-2DE2",
+
+        familia: "Joyseln y Juan Carlos",
+
+        integrantes: [
+
+            "Joselyn Lopez Ambrocio",
+
+            "Juan Carlos Gutierrez"
 
         ]
 
