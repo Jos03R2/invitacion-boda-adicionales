@@ -465,34 +465,18 @@ const familias = {
     },
 
     /*==================================
-            PAIZ
+            WENDY Y PAOLA
     ==================================*/
 
     "PAIZ-5D2C": {
 
         codigo: "PAIZ-5D2C",
 
-        familia: "Paiz",
+        familia: "Wendy Paiz y Paola Sosa",
 
         integrantes: [
 
-            "Wendy Paiz"
-
-        ]
-
-    },
-
-    /*==================================
-            SOSA
-    ==================================*/
-
-    "SOSA-45E2": {
-
-        codigo: "SOSA-45E2",
-
-        familia: "Sosa",
-
-        integrantes: [
+            "Wendy Paiz",
 
             "Paola Sosa"
 
@@ -521,18 +505,18 @@ const familias = {
     },
 
     /*==================================
-            CONTRERAS
+            MORALES
     ==================================*/
 
     "CONT-DS56": {
 
         codigo: "CONT-DS56",
 
-        familia: "Contreras",
+        familia: "Morales",
 
         integrantes: [
 
-            "Marisol Contreras"
+            "Marisol Morales"
 
         ]
 
@@ -587,6 +571,48 @@ const familias = {
         integrantes: [
 
             "Esposo Leticia Garcia"
+
+        ]
+
+    },
+
+    /*==================================
+            AMBROCIO
+    ==================================*/
+
+    "AMBR-DE5C": {
+
+        codigo: "AMBR-DE5C",
+
+        familia: "Ambrocio",
+
+        integrantes: [
+
+            "Silvia Ambrocio"
+
+        ]
+
+    },
+
+    /*==================================
+        FAMILIA AMBROCIO OBANDO
+    ==================================*/
+
+    "AMBR-FCVR": {
+
+        codigo: "AMBR-FCVR",
+
+        familia: "Familia Ambrocio Obando",
+
+        integrantes: [
+
+            "Cesy Obando",
+
+            "Gabrielle Ambrocio",
+
+            "Betsy Ambrocio",
+
+            "Abraham Ambrocio"
 
         ]
 
