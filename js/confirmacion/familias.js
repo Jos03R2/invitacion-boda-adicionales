@@ -96,15 +96,15 @@ const familias = {
 
         codigo: "CATL-67DE",
 
-        familia: "Raquel y Cesar",
+        familia: "Familia Catalan Ambrocio",
 
         integrantes: [
 
             "Cesar Catalan",
 
-            "Raquel Ambrocio"
+            "Raquel Ambrocio",
 
-         
+            "Joselyn Lopez Ambrocio"
 
         ]
 
@@ -387,6 +387,206 @@ const familias = {
             "Joselyn Lopez Ambrocio",
 
             "Juan Carlos Gutierrez"
+
+        ]
+
+    },
+
+    /*==================================
+            SANDOVAL
+    ==================================*/
+
+    "SAND-5ED2": {
+
+        codigo: "SAND-5ED2",
+
+        familia: "Sandoval",
+
+        integrantes: [
+
+            "Bryan Sandoval"
+
+        ]
+
+    },
+
+    /*==================================
+            CASTILLO
+    ==================================*/
+
+    "CAST-55E2": {
+
+        codigo: "CAST-55E2",
+
+        familia: "Castillo",
+
+        integrantes: [
+
+            "Aris Castillo"
+
+        ]
+
+    },
+
+    /*==================================
+            CLIMACO
+    ==================================*/
+
+    "CLIM-5E2D": {
+
+        codigo: "CLIM-5E2D",
+
+        familia: "Climaco",
+
+        integrantes: [
+
+            "Jose Climaco"
+
+        ]
+
+    },
+
+    /*==================================
+            RUIZ
+    ==================================*/
+
+    "RUIZ-56DC": {
+
+        codigo: "RUIZ-56DC",
+
+        familia: "Ruiz",
+
+        integrantes: [
+
+            "Rocio Ruiz"
+
+        ]
+
+    },
+
+    /*==================================
+            PAIZ
+    ==================================*/
+
+    "PAIZ-5D2C": {
+
+        codigo: "PAIZ-5D2C",
+
+        familia: "Paiz",
+
+        integrantes: [
+
+            "Wendy Paiz"
+
+        ]
+
+    },
+
+    /*==================================
+            SOSA
+    ==================================*/
+
+    "SOSA-45E2": {
+
+        codigo: "SOSA-45E2",
+
+        familia: "Sosa",
+
+        integrantes: [
+
+            "Paola Sosa"
+
+        ]
+
+    },
+
+    /*==================================
+            FAMILIA LOPEZ
+    ==================================*/
+
+    "LOPE-65D2": {
+
+        codigo: "LOPE-65D2",
+
+        familia: "Familia Lopez",
+
+        integrantes: [
+
+            "Alicia de Lopez",
+
+            "Geovanni Lopez"
+
+        ]
+
+    },
+
+    /*==================================
+            CONTRERAS
+    ==================================*/
+
+    "CONT-DS56": {
+
+        codigo: "CONT-DS56",
+
+        familia: "Contreras",
+
+        integrantes: [
+
+            "Marisol Contreras"
+
+        ]
+
+    },
+
+    /*==================================
+            VARGAS
+    ==================================*/
+
+    "VARG-5D2C": {
+
+        codigo: "VARG-5D2C",
+
+        familia: "Vargas",
+
+        integrantes: [
+
+            "Dennis Vargas"
+
+        ]
+
+    },
+
+    /*==================================
+            PEREZ
+    ==================================*/
+
+    "PERE-GF5D": {
+
+        codigo: "PERE-GF5D",
+
+        familia: "Perez",
+
+        integrantes: [
+
+            "Santiago Perez"
+
+        ]
+
+    },
+
+    /*==================================
+        ESPOSO LETICIA GARCIA
+    ==================================*/
+
+    "GARC-ED1V": {
+
+        codigo: "GARC-ED1V",
+
+        familia: "Esposo Leticia Garcia",
+
+        integrantes: [
+
+            "Esposo Leticia Garcia"
 
         ]
 
