@@ -634,8 +634,7 @@ const familias = {
 
             "Edwin Chojolan"
                
-
-        ]
+                    ]
 
     }
 
