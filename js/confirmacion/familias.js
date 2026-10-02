@@ -618,6 +618,25 @@ const familias = {
 
         ]
 
+        },
+
+    /*==================================
+         EDWIN CHOJOLAN
+    ==================================*/
+
+    "EDWI-FEV4": {
+
+        codigo: "EDWI-FEV4",
+
+        familia: "Edwin Chojolan",
+
+        integrantes: [
+
+            "Edwin Chojolan"
+               
+
+        ]
+
     }
 
 };
