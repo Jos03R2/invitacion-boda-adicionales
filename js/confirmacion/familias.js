@@ -657,6 +657,35 @@ const familias = {
 
         ]
 
-        }
+        },
+
+
+        
+    /*==================================
+       JULIO OCKELMAN Y SARA VASQUEZ
+    ==================================*/
+
+    "OCKL-SF5E": {
+        codigo: "OCKL-SF5E",
+        familia: "Julio Ockelman y Sara Vasquez",
+        integrantes: [
+            "Julio Ockelman",
+            "Sara Vasquez"
+        ]
+    },
+
+    /*==================================
+       ALEJANDRO AVILA Y LOURDES MONTENEGRO
+    ==================================*/
+
+    "AVIL-DE5F": {
+        codigo: "AVIL-DE5F",
+        familia: "Alejandro Avila y Lourdes Montenegro",
+        integrantes: [
+            "Alejandro Avila",
+            "Lourdes Montenegro"
+        ]
+    }
+
 
 };
